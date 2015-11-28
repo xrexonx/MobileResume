@@ -10,7 +10,6 @@
 					return Http.send(url, 'GET')
 				},
 				resolveResume: function () {
-					//return this.get('rexon.json');
 					var deferred = $q.defer();
 					this
 						.get('rexon.json')

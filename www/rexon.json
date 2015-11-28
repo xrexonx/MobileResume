@@ -82,8 +82,17 @@
       "institution": "University of Cebu - Main Campus",
       "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2010-06-07",
-      "endDate": "2013-03-18",
+      "startDate": "2010",
+      "endDate": "2013",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Visayas - Toledo City Campus",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2006",
+      "endDate": "2008",
       "gpa": "",
       "courses": []
     }
@@ -104,7 +113,14 @@
       "level": "Master",
       "keywords": [
         "PHP",
-        "Javascript"
+        "Javascript",
+        "Laravel",
+        "AngularJs",
+        "MySql",
+        "Git",
+        "Github",
+        "Agile Methodologies",
+        "LAMP"
       ]
     }
   ],
