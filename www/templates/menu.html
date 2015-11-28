@@ -1,0 +1,54 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-assertive">
+
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="right">
+                <button class="button button-icon button-clear ion-grid" menu-toggle="right">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="right">
+        <ion-header-bar class="expanded bar bar-header disable-user-behavior" style="background-image: url('img/material1.jpg');" >
+            <img src="img/idol.jpg" class="avatar motion spin fade">
+            <div class="menu-bottom">
+                Rexon A. De los Reyes
+            </div>
+        </ion-header-bar>
+
+        <ion-content class="stable-bg has-expanded-header scroll-content ionic-scroll has-header">
+            <div class="scroll" style="transform: translate3d(0px, 0px, 0px) scale(1);">
+                <ion-list class="disable-user-behavior">
+                    <div class="list">
+                        <ion-item menu-close href="#/app/summary">
+                            Summary
+                        </ion-item>
+                        <ion-item menu-close href="#/app/experience">
+                            Working Experience
+                        </ion-item>
+                        <ion-item menu-close href="#/app/education">
+                            Skills
+                        </ion-item>
+                        <ion-item menu-close href="#/app/skills">
+                            Educational Background
+                        </ion-item>
+                        <ion-item menu-close href="#/app/contacts">
+                            Contacts
+                        </ion-item>
+                        <ion-item menu-close href="#/app/profile">
+                            Reference
+                        </ion-item>
+                    </div>
+                </ion-list>
+            </div>
+            <div class="scroll-bar scroll-bar-v">
+                <div class="scroll-bar-indicator scroll-bar-fade-out"  style="transform: translate3d(0px, 0px, 0px) scaleY(1); height: 0px;"></div>
+            </div>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

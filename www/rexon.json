@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Rexon A. De los Reyes",
+    "label": "Web Developer ",
+    "picture": "",
+    "email": "rexondelosreyes88@gmail.com",
+    "phone": "09231226004",
+    "website": "",
+    "summary": "A web developer that follows the basic SOLID principles, specialized in building web applications, has experienced in web based accounting systems and other e-commerce solutions, also has basic knowledge in building Mobile applications using Apache Cordova, Ionic framework and AngularJs. Technologies uses on a daily basis include PHP - Laravel and Codeigniter, Javascript, AngularJs, and JQuery, MySQL, HTML, CSS - Bootstrap and Foundation and Materialize. Loved to share ideas and any new found knowledge and still learning new things.",
+    "location": {
+      "address": "Visitacion St. Cebu City",
+      "postalCode": "6000",
+      "city": "Cebu City",
+      "countryCode": "PH",
+      "region": "Region 7, Central Visayas"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "xrexonx",
+        "url": "https://github.com/xrexonx"
+      },
+      {
+        "network": "Linked In",
+        "username": "xrexonx",
+        "url": "https://linkedin.com/in/xrexonx"
+      },
+      {
+        "network": "Twitter",
+        "username": "xrexonx",
+        "url": "https://twitter.com/xrexonx88"
+      },
+      {
+        "network": "Facebook",
+        "username": "xrexonx",
+        "url": "https://facebook.com/xrexonx"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Mobile Corp",
+      "position": "Web Developer",
+      "website": "http://mobile.co",
+      "startDate": "2015-02-13",
+      "endDate": "Present",
+      "summary": "Develop and  enhance web and mobile apps, Maintain applications into more secure \tand maintanable web  applications. ",
+      "highlights": []
+    },
+    {
+      "company": "Forty Degrees celcuis Inc.",
+      "position": "Web Developer",
+      "website": "http://fdc-inc.com/",
+      "startDate": "2014-10-07",
+      "endDate": "2015-02-12",
+      "summary": "Maintain an existing Japan Based Websites, Develop or enhancing static websites into more dynamic websites.",
+      "highlights": []
+    },
+    {
+      "company": "IxBase Inc.",
+      "position": "Junior Software Engineer",
+      "website": "http://www.ixbase.net/",
+      "startDate": "2013-09-16",
+      "endDate": "2014-10-04",
+      "summary": "Involve in some projects like web-based accounting system, order management system and other e-commerce systems.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Cebu - Main Campus",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2010-06-07",
+      "endDate": "2013-03-18",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "AngularJs String Helper",
+      "publisher": "Rexon",
+      "releaseDate": "2015-11-04",
+      "website": "https://github.com/xrexonx/angular-string-helper",
+      "summary": "Just a simple lightweight angularjs string helper that maybe helps with filters."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "PHP",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "MEAN App",
+        "SOLID Principles",
+        ""
+      ]
+    },
+    {
+      "name": "Others",
+      "keywords": [
+        "Music",
+        "Skateboardnig"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
