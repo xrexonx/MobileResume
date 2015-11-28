@@ -10,7 +10,7 @@
                     url: '/app',
                     abstract: true,
                     templateUrl: 'templates/menu.html',
-                    controller: 'AppCtrl'
+                    controller: 'profileCtrl'
                 })
                 .state('app.view', {
                     url: '/:view',
@@ -19,10 +19,10 @@
                             templateUrl: function ($stateParams) {
                                 return 'templates/'+$stateParams.view+'.html'
                             },
-                            controller: 'AppCtrl'
-                            //controllerProvider: function($stateParams) {
-                            //    return $stateParams.view + 'Controller';
-                            //},
+                            //controller: 'AppCtrl',
+                            controllerProvider: function($stateParams) {
+                                return $stateParams.view + 'Ctrl';
+                            },
                         }
                     }
                 });

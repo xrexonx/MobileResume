@@ -3,7 +3,7 @@
 
     angular
         .module('AppControllers')
-        .controller('AppCtrl', function ($scope, Resume) {
+        .controller('experienceCtrl', function ($scope, Resume) {
 
             var vm = $scope;
 
