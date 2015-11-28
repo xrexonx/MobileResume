@@ -14,19 +14,14 @@
                 })
                 .state('app.view', {
                     url: '/:view',
-                    views: {
-                        'menuContent': {
-                            templateUrl: function ($stateParams) {
-                                return 'templates/'+$stateParams.view+'.html'
-                            },
-                            //controller: 'AppCtrl',
-                            controllerProvider: function($stateParams) {
-                                return $stateParams.view + 'Ctrl';
-                            },
-                        }
+                    templateUrl: function ($stateParams) {
+                        return 'templates/'+$stateParams.view+'.html'
+                    },
+                    controllerProvider: function($stateParams) {
+                        return $stateParams.view + 'Ctrl';
                     }
                 });
-            // if none of the above states are matched, use this as the fallback
+
             $urlRouterProvider.otherwise('/app/profile');
         });
 
