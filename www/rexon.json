@@ -40,29 +40,32 @@
   "work": [
     {
       "company": "Mobile Corp",
-      "position": "Web Developer",
+      "position": "Web App Developer",
       "website": "http://mobile.co",
       "startDate": "2015-02-13",
       "endDate": "Present",
       "summary": "Develop and  enhance web and mobile apps, Maintain applications into more secure \tand maintanable web  applications. ",
+      "avatar":"mc.png",
       "highlights": []
     },
     {
       "company": "Forty Degrees celcuis Inc.",
-      "position": "Web Developer",
+      "position": "Web Debugger",
       "website": "http://fdc-inc.com/",
       "startDate": "2014-10-07",
       "endDate": "2015-02-12",
       "summary": "Maintain an existing Japan Based Websites, Develop or enhancing static websites into more dynamic websites.",
+      "avatar":"fdc.png",
       "highlights": []
     },
     {
       "company": "IxBase Inc.",
-      "position": "Junior Software Engineer",
+      "position": "Junior Software Engineer - PHP",
       "website": "http://www.ixbase.net/",
       "startDate": "2013-09-16",
       "endDate": "2014-10-04",
       "summary": "Involve in some projects like web-based accounting system, order management system and other e-commerce systems.",
+      "avatar":"ixbase.jpg",
       "highlights": []
     }
   ],

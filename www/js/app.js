@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('rexon', ['ionic', 'AppRoutes', 'AppControllers', 'AppServices'])
+        .module('rexon', ['ionic', 'ionic-material', 'AppRoutes', 'AppControllers', 'AppServices'])
 
         .run(function ($ionicPlatform) {
 
