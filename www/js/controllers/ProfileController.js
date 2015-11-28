@@ -3,15 +3,10 @@
 
     angular
         .module('AppControllers')
-        .controller('profileCtrl', function ($scope, Resume) {
+        .controller('profileCtrl', function ($scope, oResume) {
 
-            var vm = $scope;
-
-            Resume
-                .get('rexon.json')
-                .success(function(response) {
-                    vm.resume = response;
-                });
+            var vm = $scope
+            vm.resume = oResume.basics;
 
         });
 

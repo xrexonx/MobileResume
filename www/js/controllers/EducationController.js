@@ -3,15 +3,10 @@
 
     angular
         .module('AppControllers')
-        .controller('educationCtrl', function ($scope, Resume) {
+        .controller('educationCtrl', function ($scope, oResume) {
 
-            var vm = $scope;
-
-            Resume
-                .get('rexon.json')
-                .success(function(response) {
-                    vm.resume = response;
-                });
+            var vm = $scope
+            vm.education = oResume.education;
 
         });
 

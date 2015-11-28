@@ -3,11 +3,23 @@
 
 	angular
 		.module('AppServices')
-		.service('Resume', function (Http) {
+		.service('Resume', function ($q, Http) {
 
 			return {
 				get: function (url) {
 					return Http.send(url, 'GET')
+				},
+				resolveResume: function () {
+					//return this.get('rexon.json');
+					var deferred = $q.defer();
+					this
+						.get('rexon.json')
+						.success(function (response) {
+							if (response) {
+								deferred.resolve(response);
+							}
+						});
+					return deferred.promise;
 				}
 			};
 

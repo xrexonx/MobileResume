@@ -3,16 +3,10 @@
 
     angular
         .module('AppControllers')
-        .controller('skillsCtrl', function ($scope, Resume) {
+        .controller('skillsCtrl', function ($scope, oResume) {
 
             var vm = $scope;
-
-            Resume
-                .get('rexon.json')
-                .success(function(response) {
-                    vm.resume = response;
-                });
-
+            vm.skills = oResume.skills;
         });
 
 })();
