@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('rexon', ['ionic', 'ionic-material', 'AppRoutes', 'AppControllers', 'AppServices'])
+        .module('rexon', ['ionic', 'ionic-material', 'AppRoutes', 'AppControllers', 'AppServices', 'AppFilters'])
 
         .run(function ($ionicPlatform) {
 
@@ -19,11 +19,12 @@
                     StatusBar.styleDefault();
                 }
             });
-        })
+        });
 
     //Define sub modules
     angular.module('AppRoutes', ['ui.router']);
     angular.module('AppServices', []);
     angular.module('AppControllers', []);
+    angular.module('AppFilters', []);
 
 })();
