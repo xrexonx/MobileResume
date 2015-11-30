@@ -7,33 +7,27 @@
                 <h4>{{resume.label}}</h4>
             </div>
         </div>
-        <div class="tabs tabs-dark tabs-icon-top static">
-            <a ui-sref="app.activity" class="tab-item">
-                <i class="icon ion-arrow-graph-up-right"></i> Activity
-            </a>
-            <a ui-sref="app.friends" class="tab-item">
-                <i class="icon ion-android-people"></i> Friends
-            </a>
-            <a ui-sref="app.gallery" class="tab-item">
-                <i class="icon ion-images"></i> Photos
-            </a>
-            <a ui-sref="app.activity" class="tab-item">
-                <i class="icon ion-arrow-graph-up-right"></i> Activity
+        <!--<h4 class="content padding double-padding-x">Pages</h4>-->
+        <div class="list animate-fade-slide-in-right">
+            <a ng-repeat="list in resume.profiles" target="_blank" href="{{list.url}}" class="item item-icon-right">
+                <h2>{{list.network}} @{{list.username}} </h2>
+                <p>{{list.url}}</p>
+                <i class="icon {{list.icon}} muted"></i>
             </a>
         </div>
-        <!--{{resume.profiles}}-->
-        <h4 class="content padding double-padding-x"> Profiles</h4>
-        <div class="list animate-fade-slide-in-right">
-
-
-            <a ng-repeat="list in resume.profiles" target="_blank" href="{{list.url}}" class="item item-avatar item-icon-right">
-                <img src="img/idol.jpg">
-                <h2>{{list.network}}</h2>
-                <!--<p> @ {{list.username}}</p>-->
-                <p>{{list.url}}</p>
-                <i class="icon ion-chatbubble muted"></i>
+        <div class="tabs tabs-dark tabs-icon-top static">
+            <a href="#/app/summary" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i> Summary
             </a>
-
+            <a href="#/app/experience" class="tab-item">
+                <i class="icon ion-ios-people"></i> Experience
+            </a>
+            <a href="#/app/skills" class="tab-item">
+                <i class="icon ion-settings"></i> Skills
+            </a>
+            <a href="#/app/education" class="tab-item">
+                <i class="icon ion-at"></i> Education
+            </a>
         </div>
     </ion-content>
 </ion-view>

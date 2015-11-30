@@ -2,7 +2,7 @@
   "basics": {
     "name": "Rexon A. De los Reyes",
     "label": "Web Developer ",
-    "picture": "",
+    "picture": "rexon.jpg",
     "email": "rexondelosreyes88@gmail.com",
     "phone": "09231226004",
     "website": "https://xrexonx.github.io",
@@ -18,27 +18,50 @@
       {
         "network": "Github",
         "username": "xrexonx",
-        "url": "https://github.com/xrexonx"
+        "url": "https://github.com/xrexonx",
+        "icon": "ion-social-github"
       },
       {
         "network": "Linked In",
         "username": "xrexonx",
-        "url": "https://linkedin.com/in/xrexonx"
+        "url": "https://linkedin.com/in/xrexonx",
+        "icon": "ion-social-linkedin"
       },
       {
         "network": "Twitter",
-        "username": "xrexonx",
-        "url": "https://twitter.com/xrexonx88"
+        "username": "xrexonx88",
+        "url": "https://twitter.com/xrexonx88",
+        "icon": "ion-social-twitter"
       },
       {
         "network": "Facebook",
         "username": "xrexonx",
-        "url": "https://facebook.com/xrexonx"
+        "url": "https://facebook.com/xrexonx",
+        "icon": "ion-social-facebook"
       },
       {
         "network": "Instagram",
         "username": "xrexonx",
-        "url": "https://instagram.com/xrexonx"
+        "url": "https://instagram.com/xrexonx",
+        "icon": "ion-social-instagram"
+      },
+      {
+        "network": "Skype",
+        "username": "rexone",
+        "url": "https://web.skype.com/en/",
+        "icon": "ion-social-skype"
+      },
+      {
+        "network": "Google Plus",
+        "username": "+RexonDelosReyes",
+        "url": "https://plus.google.com/+RexonDelosReyes/",
+        "icon": "ion-social-googleplus"
+      },
+      {
+        "network": "Mobile Corporation",
+        "username": "xrexonx",
+        "url": "http://mobile.co/profile/xrexonx/",
+        "icon": "ion-social-wordpress"
       }
     ]
   },
