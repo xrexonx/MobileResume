@@ -9,8 +9,7 @@
                 oResume : function (Resume) {
                     return Resume.resolveResume();
                 }
-            }
-
+            };
 
             $stateProvider
                 .state('app', {

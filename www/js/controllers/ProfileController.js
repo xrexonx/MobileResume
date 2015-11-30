@@ -13,7 +13,7 @@
                 ionicMaterialMotion.slideUp({
                     selector: '.slide-up'
                 });
-            }, 300);
+            }, 1000);
 
 
             $timeout(function() {
