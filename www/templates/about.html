@@ -1,0 +1,11 @@
+<ion-view view-title="About">
+    <ion-content>
+        <h4 class="content padding double-padding-x">Few Random Facts About Me</h4>
+        <div class="list animate-ripple item-text-wrap">
+            <a  ng-repeat="list in about"  class="item item-icon-left">
+                <i class="icon {{list.icon}}"></i>
+                <p>{{list.sayWhat}} ~ {{list.category}}</p>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

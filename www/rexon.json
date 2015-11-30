@@ -65,6 +65,43 @@
       }
     ]
   },
+  "about":[
+    {
+      "category":"Programming",
+      "sayWhat":"As a developer it is my responsibility to take care about security and the  maintainability of web applications.",
+      "icon":"ion-social-tux"
+    },
+    {
+      "category":"Music",
+      "sayWhat":"Music is pain reliever, ~ I really love to play guitar, and listen to punk and deathcore musics.",
+      "icon":"ion-music-note"
+    },
+    {
+      "category":"Life",
+      "sayWhat":"Skateboarding is life, ~ I really want to play skateboard every after end my duty.",
+      "icon":"ion-android-happy"
+    },
+    {
+      "category":"Day Starter",
+      "sayWhat":"Like other people in the web world, I am also a coffee addict(dang shit)",
+      "icon":"ion-coffee"
+    },
+    {
+      "category":"If Else",
+      "sayWhat":"If I were not in a web industries, I'd secretly want to be a chef.",
+      "icon":"ion-knife"
+    },
+    {
+      "category":"Sports",
+      "sayWhat":"I really like to dribble rather than shooting the ball into the basket.",
+      "icon":"ion-ios-basketball"
+    },
+    {
+      "category":"Hidden",
+      "sayWhat":"Photography in the skate scene is one of my desire someday.",
+      "icon":"ion-videocamera"
+    }
+  ],
   "work": [
     {
       "company": "Mobile Corp",
