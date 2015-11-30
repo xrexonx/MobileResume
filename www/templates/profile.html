@@ -1,31 +1,39 @@
 <ion-view view-title="Profile">
-    <ion-content>
-        <!--{{resume}}-->
-
-        <div class="" style="background-image: url('img/material1.jpg');">
-        <!--<div class="">-->
-            <div class="col text-center">
-                <img src="img/ionic.png">
-            </div>
-            <div class="text-center light">
-                Hi, I'm {{resume.name | getFirstName}} ~ I code Web Applications.
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/material-graphite.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/idol.jpg');"></div>
+                <h3><a class="light">{{resume.name}}</a></h3>
+                <h4>{{resume.label}}</h4>
             </div>
         </div>
-        <div class="row">
-            sdfgsdfds
+        <div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i> Activity
+            </a>
+            <a ui-sref="app.friends" class="tab-item">
+                <i class="icon ion-android-people"></i> Friends
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-images"></i> Photos
+            </a>
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-arrow-graph-up-right"></i> Activity
+            </a>
         </div>
-
-        <!--<div class="row responsive-sm">-->
-            <!--<div class="col">-->
-                <!--<button class="button button-fab button-dark icon ion-social-github"></button>-->
-                <!--<button class="button button-fab button-dark icon ion-social-linkedin"></button>-->
-                <!--<button class="button button-fab button-dark icon ion-social-twitter"></button>-->
-                <!--<button class="button button-fab button-dark icon ion-social-googleplus"></button>-->
-                <!--<button class="button button-fab button-dark icon ion-social-facebook"></button>-->
-            <!--</div>-->
-        <!--</div>-->
+        <!--{{resume.profiles}}-->
+        <h4 class="content padding double-padding-x"> Profiles</h4>
+        <div class="list animate-fade-slide-in-right">
 
 
+            <a ng-repeat="list in resume.profiles" target="_blank" href="{{list.url}}" class="item item-avatar item-icon-right">
+                <img src="img/idol.jpg">
+                <h2>{{list.network}}</h2>
+                <!--<p> @ {{list.username}}</p>-->
+                <p>{{list.url}}</p>
+                <i class="icon ion-chatbubble muted"></i>
+            </a>
 
+        </div>
     </ion-content>
 </ion-view>
