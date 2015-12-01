@@ -6,7 +6,8 @@
         .controller('skillsCtrl', function ($scope, oResume) {
 
             var vm = $scope;
-            vm.skills = oResume.skills;
+            vm.skills = oResume.skills[0];
+            //console.log(oResume.skills[0]);
         });
 
 })();

@@ -1,5 +1,12 @@
 <ion-view view-title="Skills">
-  <ion-content>
-    {{skills}}
-  </ion-content>
+    <ion-content>
+        <h4 class="content padding double-padding-x">
+            Tools in building web applications:
+        </h4>
+        <div class="list list-inset">
+            <div class="item" ng-repeat="list in skills.keywords">
+                {{list}}
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
