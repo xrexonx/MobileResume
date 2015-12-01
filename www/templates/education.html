@@ -1,9 +1,9 @@
 <ion-view view-title="Educational Background" align-title="center">
   <ion-content>
-   <!--{{education}}-->
-      <div class="animate-fade-slide-in-right list card stable-bg" ng-repeat="list in education">
+      <h4 class="content padding double-padding-x">Tertiary Education</h4>
+      <div class="animate-fade-slide-in list" ng-repeat="list in education">
           <div class="item item-thumbnail-right">
-              <img src="img/{{list.avatar}}">
+              <img src="img/{{list.logo}}">
               <h2>{{list.institution}}</h2>
               <p>{{list.area}}</p>
               <p>{{list.startDate}} - {{list.endDate}}</p>

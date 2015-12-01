@@ -9,7 +9,7 @@
             vm.education = oResume.education;
 
             $timeout(function () {
-                ionicMaterialMotion.fadeSlideInRight();
+                ionicMaterialMotion.fadeSlideIn();
             }, 300);
 
         });
