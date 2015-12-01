@@ -58,6 +58,12 @@
         "icon": "ion-social-googleplus"
       },
       {
+        "network": "Spotify",
+        "username": "xxrexonxx",
+        "url": "https://play.spotify.com/user/xxrexonxx",
+        "icon": "ion-headphone"
+      },
+      {
         "network": "Mobile Corporation",
         "username": "xrexonx",
         "url": "http://mobile.co/profile/xrexonx/",
