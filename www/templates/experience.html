@@ -1,13 +1,11 @@
 <ion-view view-title="Working Experience">
     <ion-content>
-        <!--{{experience}}-->
         <div class="list animate-fade-slide-in-right" ng-repeat="exp in experience">
             <div class="item item-thumbnail-right">
                 <img src="img/{{exp.avatar}}">
                 <h2>{{exp.company}}</h2>
                 <p>{{exp.position}}</p>
                 <p>{{exp.startDate | date}} - {{exp.endDate | date}}</p>
-                <!--<p><a target="_blank" href="{{exp.website}}">{{exp.website}}</a></p>-->
                 <p>{{exp.website}}</p>
             </div>
             <div class="item item-body">
