@@ -30,7 +30,7 @@ $ git clone https://github.com/xrexonx/MobileResume.git
 ```
 
 or 
-Download and extract the zip file <a href="/xrexonx/MobileResume/archive/master.zip" >here</a>
+Download and extract the zip file here
 
 ### Step 3: Update Bower dependencies
 ```sh
