@@ -24,6 +24,20 @@ var paths = {
     }
 };
 
+/*I so love it. yeah*/
+gulp.task('scripts', function () {
+    for (var key in paths.js) {
+        if (paths.js.hasOwnProperty(key)) {
+            gulp
+                .src(paths.js[key])
+                .pipe(concat(key + '.min.js'))
+                .pipe(ngmin({dynamic: true}))
+                .pipe(uglify())
+                .pipe(gulp.dest(dest.js));
+        }
+    }
+});
+
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function (done) {
@@ -40,19 +54,6 @@ gulp.task('sass', function (done) {
         .on('end', done);
 });
 
-/*I so love it. yeah*/
-gulp.task('scripts', function () {
-    for (var key in paths.js) {
-        if (paths.js.hasOwnProperty(key)) {
-            gulp
-                .src(paths.js[key])
-                .pipe(concat(key + '.min.js'))
-                .pipe(ngmin({dynamic: true}))
-                .pipe(uglify())
-                .pipe(gulp.dest(dest.js));
-        }
-    }
-});
 
 gulp.task('watch', function () {
     gulp.watch(paths.sass, ['sass']);
