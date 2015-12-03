@@ -13,7 +13,7 @@ Dependencies need to start Ionic Application, Kindly click links below for the d
   * [Bower]
   * [Gulp]
 
-# Installations On browsers
+# Installations
 ### Step 1: Install Ionic Dependencies
 ```sh
 # for this project only
@@ -35,7 +35,7 @@ $ cd MobileResume
 $ bower update
 ```
 
-### Step 4: Run App
+### Step 4: Run App on browsers
 ```sh
 $ ionic serve
 
