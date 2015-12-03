@@ -29,6 +29,9 @@ $ npm install -g gulp
 $ git clone https://github.com/xrexonx/MobileResume.git
 ```
 
+or 
+Download and extract the zip file <a href="/xrexonx/MobileResume/archive/master.zip" >here</a>
+
 ### Step 3: Update Bower dependencies
 ```sh
 $ cd MobileResume
@@ -44,6 +47,10 @@ $ ionic platform add android
 $ ionic build android
 $ ionic emulate android
 ```
+
+### Step 5: Using apk (rexon.apk) 
+Inside the folder you cloned or downloaded, there is a build apk.
+You can simply install and run the app directly on your android phone.
 
 
 
