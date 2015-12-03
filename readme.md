@@ -4,7 +4,7 @@ A mobile app resume built in Ionic framework using ionic-material.
 
 # Requirements
 
-Dependencies need to start Ionic Application, Kindly click links below for the documentations
+Dependencies need to start Ionic Application, Kindly click links below for the documentations / installations.
 
   * [NodeJs]
   * [Angular]
