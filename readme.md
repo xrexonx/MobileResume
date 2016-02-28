@@ -13,7 +13,7 @@ Dependencies need to start Ionic Application, Kindly click links below for the d
   * [Bower]
   * [Gulp]
 
-# Installations
+# Installations (jump to Step 5)
 ### Step 1: Install Ionic Dependencies
 ```sh
 # for this project only
