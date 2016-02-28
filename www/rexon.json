@@ -68,6 +68,12 @@
         "username": "xrexonx",
         "url": "http://mobile.co/profile/xrexonx/",
         "icon": "ion-social-wordpress"
+      },
+      {
+        "network": "Chromedia",
+        "username": "rexon-de-los-reyes",
+        "url": "http://chromedia.com/rexon-de-los-reyes/",
+        "icon": "ion-social-chrome"
       }
     ]
   },
@@ -110,11 +116,21 @@
   ],
   "work": [
     {
+      "company": "Chromedia",
+      "position": "Web App Developer",
+      "website": "http://chromedia.com",
+      "startDate": "2016-02-16",
+      "endDate": "Present",
+      "summary": "Develop and  enhance web and mobile apps (Using Apache Cordova), Maintain applications into more secure, sustainable \tand maintainable web  applications. ",
+      "avatar":"cm.jpg",
+      "highlights": []
+    },
+    {
       "company": "Mobile Corp",
       "position": "Web App Developer",
       "website": "http://mobile.co",
       "startDate": "2015-02-13",
-      "endDate": "Present",
+      "endDate": "2015-12-31",
       "summary": "Develop and  enhance web and mobile apps (Using Apache Cordova), Maintain applications into more secure, sustainable \tand maintainable web  applications. ",
       "avatar":"mc.png",
       "highlights": []
