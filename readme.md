@@ -32,9 +32,10 @@ $ git clone https://github.com/xrexonx/MobileResume.git
 or 
 Download and extract the zip file here
 
-### Step 3: Update Bower dependencies
+### Step 3: Install dependencies
 ```sh
 $ cd MobileResume
+$ npm install
 $ bower update
 ```
 
