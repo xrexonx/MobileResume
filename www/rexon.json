@@ -220,7 +220,10 @@
         "PHPStorm",
         "WebStorm",
         "JIRA",
-        "Basecamp"
+        "Basecamp",
+        "Slack",
+        "Hipchat",
+        "Confluence"
       ]
     }
   ],

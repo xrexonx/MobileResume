@@ -1,6 +1,6 @@
 {
   "name": "MobileResume",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MobileResume: A mobile app resume built in Ionic framework using ionic-material.",
   "dependencies": {
     "gulp": "^3.5.6",
